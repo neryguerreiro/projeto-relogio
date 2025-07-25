@@ -1,9 +1,11 @@
 .hora-atual {
-  font-size: 2rem;
-  color: #61dafb;
+  font-size: 5rem;
+  color: #670505;
+  text-align: center;
 }
 
 .data-atual {
-  font-size: 2rem;
-  color: #ffcc00;
+  font-size: 5rem;
+  color: #d40bf3;
+  text-align: center;
 }

@@ -8,13 +8,12 @@ function App() {
   const [hora, setHora] = useState(obterHoraAtual())
   const [data, setData] = useState(obterDataAtual())
  
-  useEffect(() => {
-    setData(obterDataAtual())
-  }, [])
+
 
   useEffect(() => {
     const timer = setInterval(() => {
       setHora(obterHoraAtual())
+      setData(obterDataAtual())
     }, 1000)
     return () => clearInterval(timer)
   }, [])
